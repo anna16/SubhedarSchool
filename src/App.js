@@ -52,7 +52,7 @@ function App() {
     loadScript('https://anna16.github.io/SubhedarSchool/js/main.js')
   }, [])
   return (
-    <HashRouter basename="/SubhedarSchool">
+    <HashRouter basename="/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<AboutFounder />} />
