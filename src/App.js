@@ -52,7 +52,7 @@ function App() {
     loadScript('https://anna16.github.io/SubhedarSchool/js/main.js')
   }, [])
   return (
-    <BrowserRouter basename="SubhedarSchool">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<AboutFounder />} />
@@ -70,7 +70,7 @@ function App() {
         
         <Route path="donate" element={<Donate />} /> */}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
