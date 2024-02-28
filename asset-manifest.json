@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SubhedarSchool/static/css/main.e6c13ad2.css",
+    "main.js": "/SubhedarSchool/static/js/main.442931c8.js",
+    "static/js/592.6acc89cf.chunk.js": "/SubhedarSchool/static/js/592.6acc89cf.chunk.js",
+    "index.html": "/SubhedarSchool/index.html",
+    "main.e6c13ad2.css.map": "/SubhedarSchool/static/css/main.e6c13ad2.css.map",
+    "main.442931c8.js.map": "/SubhedarSchool/static/js/main.442931c8.js.map",
+    "592.6acc89cf.chunk.js.map": "/SubhedarSchool/static/js/592.6acc89cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.442931c8.js"
+  ]
+}
