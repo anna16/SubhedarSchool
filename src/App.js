@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 // import Blogs from "./pages/Blogs";
 // import Contact from "./pages/Contact";
@@ -52,7 +52,7 @@ function App() {
     loadScript('https://anna16.github.io/SubhedarSchool/js/main.js')
   }, [])
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<AboutFounder />} />
@@ -70,7 +70,7 @@ function App() {
         
         <Route path="donate" element={<Donate />} /> */}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
