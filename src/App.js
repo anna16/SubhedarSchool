@@ -52,20 +52,20 @@ function App() {
     loadScript('https://anna16.github.io/SubhedarSchool/js/main.js')
   }, [])
   return (
-    <HashRouter basename="/">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<AboutFounder />} />
-        <Route path="aboutGEIDadar" element={<AboutGEIDadar />} />
-        <Route path="aboutSWSchool" element={<AboutSWSchool />} />
-        <Route path="committeeMembers" element={<CommitteeMembers />} />
-        <Route path="acadmic" element={<Acadmic />} />
-        <Route path="sports" element={<Sports />} />
-        <Route path="enquiryForm" element={<EnquiryForm />} />
-        <Route path="teacher" element={<Teacher />} />
-        <Route path="photoGallery" element={<PhotoGallery />} />
-        <Route path="schoolTour" element={<SchoolTour />} />
-        <Route path="contact" element={<Contact />} />
+        <Route basename="/SubhedarSchool" path="about" element={<AboutFounder />} />
+        <Route basename="/SubhedarSchool" path="aboutGEIDadar" element={<AboutGEIDadar />} />
+        <Route basename="/SubhedarSchool" path="aboutSWSchool" element={<AboutSWSchool />} />
+        <Route basename="/SubhedarSchool" path="committeeMembers" element={<CommitteeMembers />} />
+        <Route basename="/SubhedarSchool" path="acadmic" element={<Acadmic />} />
+        <Route basename="/SubhedarSchool" path="sports" element={<Sports />} />
+        <Route basename="/SubhedarSchool" path="enquiryForm" element={<EnquiryForm />} />
+        <Route basename="/SubhedarSchool" path="teacher" element={<Teacher />} />
+        <Route basename="/SubhedarSchool" path="photoGallery" element={<PhotoGallery />} />
+        <Route basename="/SubhedarSchool" path="schoolTour" element={<SchoolTour />} />
+        <Route basename="/SubhedarSchool" path="contact" element={<Contact />} />
         {/*
         
         <Route path="donate" element={<Donate />} /> */}
