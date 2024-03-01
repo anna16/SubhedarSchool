@@ -1,10 +1,11 @@
-import ReactDOM from "react-dom/client";
-import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
+// import ReactDOM from "react-dom/client";
+import { HashRouter, Routes, Route } from "react-router-dom";
+// BrowserRouter
 import Home from "./pages/Home";
 // import Blogs from "./pages/Blogs";
 // import Contact from "./pages/Contact";
 import AboutFounder from "./pages/AboutFounderPage";
-import AboutDadarPresident from "./pages/AbtDadarPresidentPage"
+// import AboutDadarPresident from "./pages/AbtDadarPresidentPage"
 import AboutGEIDadar from "./pages/AboutGEIDadarPage";
 import AboutSWSchool from "./pages/AboutSWSchoolPage";
 import CommitteeMembers from "./pages/CommitteeMembersPage";
