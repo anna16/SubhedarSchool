@@ -45,7 +45,8 @@ body {
 	line-height: 1.8;
 	font-weight: 400;
 	// color: lighten($black,40%);
-	color: rgba(0,0,0,.5);
+	//color: rgba(0,0,0,.5);
+	color: #340003;
 	&.menu-show {
 		overflow: hidden;
 		position: fixed;
@@ -1171,7 +1172,7 @@ textarea.form-control {
 
 
 .ftco-section {
-	padding: 7em 0;
+	padding: 3em 0;
 	position: relative;
 }
 
@@ -1189,7 +1190,7 @@ textarea.form-control {
 
 .ftco-footer {
 	font-size: 14px;
-	background: #232323;
+	background: #E65826;
 	padding: 6em 0;
 	.ftco-footer-widget {
 		width: 100%;

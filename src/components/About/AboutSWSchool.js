@@ -18,8 +18,9 @@ const AboutSWSchool = () => {
                     <div className="row">
                         <div className="col-md-5 order-md-last wrap-about pt-5 wrap-about bg-light">
                             <div className="text-center ftco-animate">
-                                <img src="images/GEIDadar.jpg" className="img-fluid rounded" alt="GEI Dadar" />
-                                <h6 className="text-center rounded py-1 bg-yellow1">General Education Institute<br />Dadar, Mumbai</h6>
+                                <img src="images/Mr.PrasadSardesai-Incharge.jpg" className="img-fluid
+                                 rounded" alt="GEI Dadar" />
+                                <h6 className="text-center rounded py-1 bg-yellow1">Mr. Prasad Sardesai<br />Incharge</h6>
                             </div>
 
                         </div>

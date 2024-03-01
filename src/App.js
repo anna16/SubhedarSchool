@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 // import Blogs from "./pages/Blogs";
 // import Contact from "./pages/Contact";
 import AboutFounder from "./pages/AboutFounderPage";
+import AboutDadarPresident from "./pages/AbtDadarPresidentPage"
 import AboutGEIDadar from "./pages/AboutGEIDadarPage";
 import AboutSWSchool from "./pages/AboutSWSchoolPage";
 import CommitteeMembers from "./pages/CommitteeMembersPage";
@@ -66,11 +67,25 @@ function App() {
         <Route path="photoGallery" element={<PhotoGallery />} />
         <Route path="schoolTour" element={<SchoolTour />} />
         <Route path="contact" element={<Contact />} />
-        {/*
-        
-        <Route path="donate" element={<Donate />} /> */}
       </Routes>
     </HashRouter>
+    //  <BrowserRouter forceRefresh>
+    //   <Routes basename={'https://www.subhedarwadaenglishschool.in/nweb'}>
+    //     <Route path="/" element={<Home />} />
+    //     <Route path="about" element={<AboutFounder />} />
+    //     <Route path="aboutDadarPresident" element={<AboutDadarPresident />} />
+    //     <Route path="aboutGEIDadar" element={<AboutGEIDadar />} />
+    //     <Route path="aboutSWSchool" element={<AboutSWSchool />} />
+    //     <Route path="committeeMembers" element={<CommitteeMembers />} />
+    //     <Route path="acadmic" element={<Acadmic />} />
+    //     <Route path="sports" element={<Sports />} />
+    //     <Route path="enquiryForm" element={<EnquiryForm />} />
+    //     <Route path="teacher" element={<Teacher />} />
+    //     <Route path="photoGallery" element={<PhotoGallery />} />
+    //     <Route path="schoolTour" element={<SchoolTour />} />
+    //     <Route path="contact" element={<Contact />} />
+    //   </Routes>
+    //  </BrowserRouter>
   );
 }
 

@@ -27,7 +27,9 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
-
+			<div className="row justify-content-center">
+							<img width="50%" src="images/SchoolName.png" className="img-fluid rounded text-center" alt="akshikar" />
+							</div>
 			<nav className="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
 				<div className="container d-flex align-items-center">
 					<a className="navbar-brand" href="index.html"><img src="images/G-E-Logo.png" width="120" alt="G.E Logo" /></a>
@@ -64,13 +66,7 @@ const Header = () => {
 							<li className={`nav-item ${window.location.pathname === "/schoolTour" ? "active" : ""}`}><a href="/schoolTour" className="nav-link">School Tour</a></li>
 							<li className={`nav-item ${window.location.pathname === "/contact" ? "active" : ""}`}><a href="/contact" className="nav-link">Contact Us</a></li>
 						</ul>
-						{/* <div className="row">
-						<div className="col-12 border text-center">
-					<img src="images/SchoolName.jpg" width="500" alt="G.E Logo" />
-					</div></div> */}
 					</div>
-					
-					{/* <div className="border">hghjgjh</div> */}
 				</div>
 			</nav>
 			

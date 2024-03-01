@@ -16,6 +16,11 @@ const Teacher = () => {
 
             <section class="ftco-section ftco-no-pb">
                 <div class="container">
+                    <div class="row justify-content-center pb-2">
+                        <div class="col-md-8 text-center heading-section ftco-animate">
+                            <h2 class="mb-4">Teaching Staff</h2>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-md-6 col-lg-3 ftco-animate">
                             <div class="staff">
@@ -126,6 +131,97 @@ const Teacher = () => {
                                     <div class="faded">
                                         <p>B.Sc., B.Ed</p>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center pb-2">
+                        <div class="col-md-8 text-center heading-section ftco-animate">
+                            <h2 class="mb-4">Administrative Staff</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3 ftco-animate">
+                            <div class="staff">
+                                <div class="img-wrap d-flex align-items-stretch">
+                                    <div class="img align-self-stretch" style={{ backgroundImage: "url(images/teacher-1.jpg)" }}></div>
+                                </div>
+                                <div class="text pt-3 text-center">
+                                    <h3>Mrs. Sonali Hemant Wagh</h3>
+                                    <span class="position">P.R.O</span>
+                                    <div class="faded">
+                                        <p>B.A</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 ftco-animate">
+                            <div class="staff">
+                                <div class="img-wrap d-flex align-items-stretch">
+                                    <div class="img align-self-stretch" style={{ backgroundImage: "url(images/teacher-2.jpg)" }}></div>
+                                </div>
+                                <div class="text pt-3 text-center">
+                                    <h3>Mrs. Aishwarya Vaibhav Nimkar</h3>
+                                    <span class="position">Clerk</span>
+                                    <div class="faded">
+                                        <p>H.S.C</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 ftco-animate">
+                            <div class="staff">
+                                <div class="img-wrap d-flex align-items-stretch">
+                                    <div class="img align-self-stretch" style={{ backgroundImage: "url(images/teacher-3.jpg)" }}></div>
+                                </div>
+                                <div class="text pt-3 text-center">
+                                    <h3>Mrs. Laxmi Manojkumar Makune</h3>
+                                    <span class="position">Supporting Staff</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 ftco-animate">
+                            <div class="staff">
+                                <div class="img-wrap d-flex align-items-stretch">
+                                    <div class="img align-self-stretch" style={{ backgroundImage: "url(images/teacher-3.jpg)" }}></div>
+                                </div>
+                                <div class="text pt-3 text-center">
+                                    <h3>Mrs. Geeta Sitaram Mangde</h3>
+                                    <span class="position">Supporting Staff</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 ftco-animate">
+                            <div class="staff">
+                                <div class="img-wrap d-flex align-items-stretch">
+                                    <div class="img align-self-stretch" style={{ backgroundImage: "url(images/teacher-5.jpg)" }}></div>
+                                </div>
+                                <div class="text pt-3 text-center">
+                                    <h3>Mrs. Shalaka Shailesh Shirke</h3>
+                                    <span class="position">Supporting Staff</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 ftco-animate">
+                            <div class="staff">
+                                <div class="img-wrap d-flex align-items-stretch">
+                                    <div class="img align-self-stretch" style={{ backgroundImage: "url(images/teacher-6.jpg)" }}></div>
+                                </div>
+                                <div class="text pt-3 text-center">
+                                    <h3>Mrs. Sangeeta Ramesh Bhor</h3>
+                                    <span class="position">Supporting Staff</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 ftco-animate">
+                            <div class="staff">
+                                <div class="img-wrap d-flex align-items-stretch">
+                                    <div class="img align-self-stretch" style={{ backgroundImage: "url(images/teacher-7.jpg)" }}></div>
+                                </div>
+                                <div class="text pt-3 text-center">
+                                    <h3>Mrs. Ashwini Avinash Mahajan</h3>
+                                    <span class="position">ASupporting Staff</span>
                                 </div>
                             </div>
                         </div>
